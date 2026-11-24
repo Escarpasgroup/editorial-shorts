@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "editorial-shorts",
+  "description": "Marketplace with the editorial-shorts plugin",
+  "owner": {"name": "editorial-shorts contributors"},
+  "plugins": [
+    {
+      "name": "editorial-shorts",
+      "description": "Short-video editorial team: supervisor plus seven specialist agents and the editorial-shorts skill",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

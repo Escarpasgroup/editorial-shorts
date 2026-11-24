@@ -1,0 +1,83 @@
+{
+  "language": "en",
+  "region": "US",
+  "timezone_offset": "+00:00",
+  "themes": ["sports", "pets", "travel", "food", "science", "tech", "music", "games"],
+
+  "research": {
+    "platforms": ["youtube", "tiktok", "instagram"],
+    "sources": ["manual", "yt-dlp"],
+    "period_days": 30,
+    "pilot": {"references_min": 60, "references_max": 100, "themes_min": 6, "themes_max": 8},
+    "baseline_min_videos": 5,
+    "outlier_ratio": 3.0,
+    "repost_title_similarity": 0.6,
+    "page_min_independent_stories": 3,
+    "page_min_creators": 2,
+    "page_min_available_material": 5
+  },
+
+  "pages": [
+    {
+      "id": "general",
+      "name": "General stories",
+      "themes": ["*"],
+      "language": "en",
+      "destinations": [
+        {"platform": "mock", "adapter": "mock", "account": "demo-account"}
+      ]
+    }
+  ],
+
+  "editorial": {
+    "max_comment_lines": 2,
+    "max_words_per_line": 18,
+    "visible_overlap_reject": 0.5,
+    "lexicon": "auto"
+  },
+
+  "render": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "crf": 20,
+    "loudness_lufs": -14.0,
+    "loudness_tolerance": 1.5,
+    "duck_volume": 0.25,
+    "font": "Arial",
+    "font_size": 64,
+    "detail_min_visible": 0.8,
+    "detail_max_difference": 40
+  },
+
+  "platform_profiles": {
+    "youtube":   {"min_s": 3, "max_s": 180, "title_max": 100, "text_max": 5000, "hashtags_max": 3},
+    "tiktok":    {"min_s": 3, "max_s": 600, "title_max": 90,  "text_max": 2200, "hashtags_max": 5},
+    "instagram": {"min_s": 3, "max_s": 180, "title_max": 90,  "text_max": 2200, "hashtags_max": 5},
+    "facebook":  {"min_s": 3, "max_s": 90,  "title_max": 90,  "text_max": 2200, "hashtags_max": 5},
+    "mock":      {"min_s": 1, "max_s": 600, "title_max": 100, "text_max": 5000, "hashtags_max": 5}
+  },
+
+  "transcription": {"engine": "ffmpeg-whisper", "model_path": "", "language": "auto"},
+  "tts": {"engine": "none", "flite_voice": "slt", "command": []},
+
+  "models": {
+    "judgment": "most capable model available (supervisor, script, review, analyst conclusions)",
+    "mechanical": "none: deterministic CLI steps make no model calls",
+    "vision": "any model that can read image frames (editor and reviewer checks)"
+  },
+  "cost_limits": {"max_judgment_calls_per_story": 6, "max_tts_chars_per_day": 5000},
+
+  "publishing": {
+    "mode": "simulate",
+    "lease_seconds": 600,
+    "export_dir": "export"
+  },
+
+  "integrations": {
+    "buffer": {"organization_id": "", "channels": {}},
+    "storage": {"type": "none", "public_base_url_env": "ES_R2_PUBLIC_URL"}
+  },
+
+  "metrics": {"windows": ["24h", "7d"], "voice_drop_factor": 2.0, "pattern_min_stories": 3}
+}

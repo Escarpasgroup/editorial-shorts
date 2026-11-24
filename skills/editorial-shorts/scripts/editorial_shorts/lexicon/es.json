@@ -1,0 +1,13 @@
+{
+  "_note": "Patterns are matched after lowercasing and removing accents and punctuation. generic_question only fires on lines that contain '?'. Add phrases freely; never remove the categories.",
+  "stopwords": ["el", "la", "los", "las", "un", "una", "unos", "unas", "de", "del", "y", "o", "en", "que", "con", "por", "para", "se", "su", "sus", "lo", "le", "les", "es", "son", "fue", "era", "esta", "este", "esto", "ese", "esa", "eso", "mas", "muy", "ya", "solo", "como", "pero", "cuando", "donde", "aqui", "alli", "va", "van", "no", "si", "al", "ahora", "momento", "mira", "tu", "usted"],
+  "banned": {
+    "narrating_the_obvious": ["en este momento", "en ese momento", "ahora el", "ahora ella", "ahora ellos", "aqui vemos", "podemos ver", "como pueden ver", "como puedes ver", "mira como", "fijate como"],
+    "fabricated_suspense": ["no vas a creer", "no lo vas a creer", "espera al final", "quedate hasta el final", "mira hasta el final", "nadie se lo esperaba", "lo que pasa despues"],
+    "anticipating_payoff": ["va a saltar", "va a caer", "va a salir mal", "el va a", "ella va a", "aqui es donde todo cambia"],
+    "generic_question": ["y tu", "y ustedes", "que harias", "tu lo harias", "que opinas", "quien mas"],
+    "habitual_cta": ["comenta", "comentame", "deja tu like", "suscribete", "sigueme para mas", "comparte con", "etiqueta a un amigo", "link en la bio"],
+    "empty_adjectives": ["increible", "impresionante", "brutal", "epico", "alucinante", "locura", "insolito"]
+  },
+  "trivial_loss": ["", "nada", "ninguno", "ninguna", "n/a", "-", "ritmo", "relleno"]
+}

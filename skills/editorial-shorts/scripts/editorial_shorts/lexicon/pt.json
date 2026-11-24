@@ -1,0 +1,13 @@
+{
+  "_note": "Patterns are matched after lowercasing and removing accents and punctuation. generic_question only fires on lines that contain '?'. Add phrases freely; never remove the categories.",
+  "stopwords": ["a", "o", "as", "os", "um", "uma", "uns", "umas", "de", "do", "da", "dos", "das", "e", "em", "no", "na", "nos", "nas", "que", "com", "por", "para", "pra", "pro", "se", "ele", "ela", "eles", "elas", "isso", "esse", "essa", "este", "esta", "isto", "mais", "muito", "bem", "foi", "ser", "esta", "ta", "ao", "aos", "seu", "sua", "seus", "suas", "lhe", "ja", "so", "como", "mas", "ou", "quando", "onde", "aqui", "la", "vai", "vao", "nao", "sim", "tem", "ter", "tinha", "era", "sao", "pelo", "pela", "entre", "ate", "sobre", "depois", "antes", "agora", "momento", "neste", "nesse", "olha", "ve", "voce", "voces", "gente"],
+  "banned": {
+    "narrating_the_obvious": ["neste momento", "nesse momento", "agora ele", "agora ela", "agora eles", "agora elas", "aqui vemos", "aqui a gente ve", "podemos ver", "como voces podem ver", "como voce pode ver", "olha so", "olha como", "olha isso", "repara como", "veja como"],
+    "fabricated_suspense": ["voce nao vai acreditar", "voces nao vao acreditar", "espera ate o final", "espera so", "fique ate o final", "assista ate o fim", "o final e chocante", "ninguem esperava", "prepare se", "o que acontece depois"],
+    "anticipating_payoff": ["ele vai pular", "ela vai pular", "vai cair", "vai dar errado", "ja ja", "daqui a pouco ele", "daqui a pouco ela", "e ai que tudo muda", "agora ele vai", "agora ela vai"],
+    "generic_question": ["e voce", "e voces", "o que voce faria", "voce faria", "voce pularia", "qual sua opiniao", "concorda", "quem mais", "ja aconteceu com voce"],
+    "habitual_cta": ["comenta ai", "comente", "deixa seu like", "deixe seu like", "se inscreve", "inscreva se", "segue pra mais", "siga para mais", "compartilhe com", "marca um amigo", "marque um amigo", "link na bio"],
+    "empty_adjectives": ["incrivel", "inacreditavel", "surreal", "insano", "absurdo", "chocante", "epico", "bizarro", "sensacional", "impressionante"]
+  },
+  "trivial_loss": ["", "nada", "nenhum", "nenhuma", "n/a", "-", "ritmo", "preencher"]
+}

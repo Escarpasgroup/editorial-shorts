@@ -1,0 +1,14 @@
+{
+  "note": "DEMONSTRATIVE numbers for the demo flow; not collected from any platform",
+  "impressions": 10000,
+  "reach": 8000,
+  "views": 6200,
+  "retention_3s": 0.71,
+  "completion_rate": 0.48,
+  "avg_view_s": 4.1,
+  "shares": 160,
+  "saves": 40,
+  "likes": 520,
+  "comments": 12,
+  "retention_curve": [[0, 100], [1, 86], [2, 78], [3, 71], [4, 66], [5, 60], [6, 52]]
+}

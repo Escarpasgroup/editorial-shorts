@@ -1,0 +1,13 @@
+{
+  "_note": "Patterns are matched after lowercasing and removing accents and punctuation. generic_question only fires on lines that contain '?'. Add phrases freely; never remove the categories.",
+  "stopwords": ["a", "an", "the", "of", "and", "or", "in", "on", "at", "to", "for", "with", "by", "from", "is", "are", "was", "were", "be", "been", "it", "its", "this", "that", "these", "those", "he", "she", "they", "him", "her", "them", "his", "their", "just", "so", "very", "much", "more", "now", "here", "there", "as", "but", "not", "no", "yes", "has", "have", "had", "will", "would", "can", "could", "into", "over", "under", "about", "then", "than", "you", "we", "our", "look", "see", "going", "moment", "right"],
+  "banned": {
+    "narrating_the_obvious": ["right now", "at this moment", "in this moment", "here we see", "here we can see", "we can see", "as you can see", "look at", "look how", "watch how", "now he is", "now she is", "now they are", "now he s", "now she s"],
+    "fabricated_suspense": ["you won t believe", "you will not believe", "wait for it", "watch till the end", "watch until the end", "stay until the end", "nobody expected", "no one expected", "what happens next"],
+    "anticipating_payoff": ["he s going to", "she s going to", "he is going to", "she is going to", "is about to", "it s about to", "this is where everything changes"],
+    "generic_question": ["what would you do", "would you", "and you", "what do you think", "agree", "who else", "has this happened to you"],
+    "habitual_cta": ["comment below", "let me know in the comments", "like and subscribe", "smash that like", "subscribe", "follow for more", "share this with", "tag a friend", "link in bio"],
+    "empty_adjectives": ["incredible", "insane", "unbelievable", "crazy", "epic", "shocking", "amazing", "mind blowing", "jaw dropping"]
+  },
+  "trivial_loss": ["", "nothing", "none", "n/a", "-", "pacing", "filler"]
+}

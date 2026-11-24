@@ -1,0 +1,25 @@
+{
+  "source": {
+    "file": "dog_gate.mp4",
+    "url": null,
+    "rights": {"status": "owned", "evidence": "synthetic clip generated locally by the demo"}
+  },
+  "context_checked": true,
+  "visual_checked": true,
+  "has_speech": false,
+  "segments": [{"in": 2.0, "out": 8.0}],
+  "framing": {"crop_x": 650},
+  "moments": {"setup": 3.0, "main": 4.5, "reaction": 5.0},
+  "visible": [
+    {"t0": 2.0, "t1": 8.0, "desc": "a brown dog runs after a red ball"},
+    {"t0": 3.9, "t1": 5.1, "desc": "the dog jumps over the high gate"}
+  ],
+  "details": [
+    {"id": "d1", "t0": 4.0, "t1": 5.0, "essential": true,
+     "desc": "the ball rolls under the gate while the dog jumps over it",
+     "track": [{"t": 4.0, "bbox": [700, 905, 50, 50]}, {"t": 4.5, "bbox": [900, 905, 50, 50]}, {"t": 5.0, "bbox": [1100, 905, 50, 50]}]}
+  ],
+  "protected": [{"t0": 4.6, "t1": 6.4, "why": "laughter of the person filming"}],
+  "meaning_units": [],
+  "facts": []
+}

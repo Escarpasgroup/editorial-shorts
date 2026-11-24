@@ -1,0 +1,10 @@
+{
+  "mode": "B",
+  "lines": [
+    {"text": "The ball found a much easier way.",
+     "at": 6.5, "dur": 1.4, "kind": "onscreen",
+     "loss_if_removed": "most viewers miss that the ball went under the gate while the dog went over it",
+     "evidence": [{"type": "detail", "ref": "d1"}]}
+  ],
+  "assembly": "Comment appears only after the laugh ends."
+}

@@ -1,0 +1,12 @@
+# development notes and build output stay local
+dev/
+dist/
+__pycache__/
+*.pyc
+# workspaces and media never belong in the repository
+*.sqlite
+*.db
+*.mp4
+*.wav
+*.bin
+.env

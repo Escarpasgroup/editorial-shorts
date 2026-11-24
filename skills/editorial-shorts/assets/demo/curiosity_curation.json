@@ -1,0 +1,10 @@
+{
+  "source": {"file": null, "rights": {"status": "unknown", "evidence": ""}},
+  "question": "Why do octopuses have three hearts?",
+  "central_claim": "f1",
+  "facts": [
+    {"id": "f1", "claim": "Octopuses have three hearts", "status": "uncertain", "sources": []}
+  ],
+  "details": [],
+  "visible": []
+}

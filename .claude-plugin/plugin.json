@@ -1,0 +1,7 @@
+{
+  "name": "editorial-shorts",
+  "version": "0.1.0",
+  "description": "Research, curate, script, edit, review, publish and learn from short vertical videos, with an editorial team of eight agents led by a supervisor. Any language, theme, page and supported platform.",
+  "license": "MIT",
+  "keywords": ["shorts", "reels", "tiktok", "video", "editorial", "publishing", "ffmpeg"]
+}

@@ -1,0 +1,9 @@
+{
+  "mode": "B",
+  "lines": [
+    {"text": "Right now, the brown dog runs after the ball. Now he is going to jump the gate. Look how high this gate is! Would you jump it?",
+     "at": 3.0, "dur": 3.0, "kind": "onscreen",
+     "loss_if_removed": "nothing",
+     "evidence": []}
+  ]
+}
